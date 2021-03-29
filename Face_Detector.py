@@ -19,7 +19,7 @@ print((face_coordinates))
 for (x,y,w,h) in face_coordinates:
     cv2.rectangle(img,(x,y),(x+w,y+h),(randrange(256),randrange(256),randrange(256)),2)
 #
-cv2.imshow('clever programmer face detector', img)
+cv2.imshow('MD INAMUL HASAN face detector', img)
 cv2.waitKey()
 
 print("code completed")
@@ -45,7 +45,7 @@ while True:
 
 
 
-    cv2.imshow("clever programmer", frame)
+    cv2.imshow("MD INAMUL HASAN", frame)
     key=cv2.waitKey(1)
 
     #stop if q or Q is pressed
